@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    min-height: 150vh; 
+}
+
+header {
+    background: #fff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: green;
+}
+
+.back-link {
+    display: block;
+    width: 185px;
+    height: 23px;
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 54px;
+    color: #000000;
+    text-align: center;
+    width: 526px;
+    height: 231px;
+    margin: 0;
+    position: absolute;
+    left: 405px;
+    top: 182px;
+}
+
+h3 {
+    font-size: 54px;
+    color: #2c7c2c;
+    text-align: center;
+    width: 526px;
+    height: 231px;
+    margin: 0;
+    position: absolute;
+    left: 405px;
+    top: 250px;
+}
+
+.image-container {
+    position: absolute;
+    left: 975px;
+    top: 182px;
+}
+
+.product-image {
+    width: 540px;
+    height: 498px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.highlight {
+    position: absolute;
+    left: 405px;
+    top: 501px;
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    width: 498px;
+    height: 86px;
+    background: #fff3f3;
+    border-radius: 8px;
+    padding: 10px;
+    gap: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+    width: 80px;
+    height: 80px;
+}
+
+main {
+    flex: 1; 
+}
+
+.characteristics h4 {
+    color: #2c7c2c;
+    margin-top: 15px;
+    border-bottom: 2px solid #2c7c2c;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.characteristics ul {
+    list-style: none;
+    padding: 0;
+}
+
+.characteristics ul li {
+    background: url('bullet.png') no-repeat left center;
+    background-size: 16px;
+    padding-left: 25px;
+    margin-bottom: 5px;
+}
+
+.characteristics {
+    position: absolute;
+    left: 405px;
+    top: 627px;
+}
+
+.download {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: white;
+    color: green;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: background 0.3s;
+    width: 185px;
+    height: 25px;
+    position: absolute;
+    left: 1290px;
+    top: 710px;
+    box-sizing: 5px;
+}
+
+.btn:hover {
+    background: darkgreen;
+}
+
+
+.plant {
+    position: absolute;
+    left: 405px;
+    top: 806px;
+}
+
+.fruit {
+    position: absolute;
+    left: 405px;
+    top: 1003px;
+}
+
+.cycle h5 {
+    color: #2c7c2c;
+    margin-top: 15px;
+    border-bottom: 2px solid #2c7c2c;
+    display: inline-block;
+    padding-bottom: 5px;
+
+}
+
+.cycle ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cycle ul li {
+    background: url('bullet.png') no-repeat left center;
+    background-size: 16px;
+    padding-left: 25px;
+    margin-bottom: 5px;
+}
+
+.cycle {
+    position: absolute;
+    right: 675px; 
+    top: 806px;
+}
+
+.color {
+    position: absolute;
+    right: 675px; 
+    top: 1003px;
+}
+
+.class {
+    background: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    position: absolute;
+    bottom: -400px;
+    left: 0;
+    right: 0;
+}
+
+.class-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.class-nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #333;
+    color: white;
+    margin-top: 20px;
+}
