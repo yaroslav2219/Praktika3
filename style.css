@@ -19,6 +19,58 @@ header {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
+.search-container {
+    position: absolute;
+    top: 20px;
+    left: 1320px;
+    border-bottom: 2px solid #333;
+    max-width: 200px;
+    padding-bottom: 0px;
+    margin-bottom: 0px; 
+}
+
+.search-container input {
+    width: 350px;
+    height: 29px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none
+}
+
+.custom-nav {
+    position: absolute;
+    top: 74px;
+    left: 1115px;
+    width: 499px;
+    height: 23px;
+}
+
+.custom-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.custom-nav ul li {
+    display: inline;
+}
+
+.custom-nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+    font-size: 14px; 
+}
+
+.custom-nav ul li a:hover {
+    color: green;
+}
+
 nav ul {
     list-style: none;
     display: flex;
@@ -192,7 +244,7 @@ main {
     border-bottom: 2px solid #2c7c2c;
     display: inline-block;
     padding-bottom: 5px;
-
+    font-size: 17px; 
 }
 
 .cycle ul {
@@ -211,7 +263,9 @@ main {
     position: absolute;
     right: 675px; 
     top: 806px;
+    width: 200px;  
 }
+
 
 .color {
     position: absolute;
