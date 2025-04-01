@@ -317,3 +317,193 @@ footer {
     color: white;
     margin-top: 20px;
 }
+
+@media (max-width: 768px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .custom-nav {
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        left: auto; 
+        right: auto;
+    }
+
+    h2{
+        text-align: center;
+        width: 100%;
+        font-size: 2rem;
+        margin-top: 20px;
+        position: relative;
+        left: auto; 
+        right: auto;
+    }
+
+    h3{
+        text-align: center;
+        width: 100%;
+        font-size: 2rem;
+        margin-top: -260px;
+        position: relative;
+        left: auto; 
+        right: auto;
+    }
+
+    .image-container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: -120px;
+        position: relative;
+        left: auto; 
+        right: auto;
+    }
+
+    .highlight {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 90%;
+        margin-top: -280px;
+        padding: 30px;
+        font-size: 1.5rem;
+        position: relative;
+        left: auto; 
+        right: auto;
+    }
+
+    .download {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 10px;
+        position: relative;
+        left: auto; 
+        right: auto;
+    }
+
+    .btn {
+        width: 100px;
+        padding: 10px;
+        text-align: center;
+        position: relative;
+        left: auto; 
+        right: auto;
+        margin-top: 90px;
+    }
+
+    .characteristics{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        margin-top: -70px;
+        position: relative;
+        left: auto; 
+        right: auto;
+    }
+
+    .cycle{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        margin-top: -180px;
+        position: relative;
+        left: auto; 
+        right: auto;
+    }
+
+    .class {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+        position: relative;
+        margin-top: 400px;
+    }
+
+    .class-nav {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .class-nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        padding: 0;
+    }
+
+    .social-icons {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    footer {
+        width: 100%;
+        text-align: center;
+        position: relative;
+        margin-top: 400px;
+    }
+
+    .search-container {
+        position: relative;
+        left: auto; 
+        right: auto;
+        max-width: 100%;
+    }
+
+    .product-image {
+        width: 100%; 
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    h2, h3 {
+        font-size: 1.5rem;
+    }
+
+    .highlight {
+        font-size: 1.2rem;
+    }
+
+    .btn {
+        width: 90%;
+    }
+
+    .characteristics, .cycle {
+        width: 100%;
+    }
+
+    .product-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .highlight, .btn, .characteristics, .cycle {
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
